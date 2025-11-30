@@ -1,0 +1,29 @@
+
+.header {
+    padding: 1rem 2rem;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: #0a0a0a;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__cinelist {
+    color: rgb(200, 0, 0);
+}
+.header__navLink {
+    margin-right: 15px;
+}
+.header__navLink:hover {
+    color: rgb(200, 0, 0);
+    transition: 0.5s;
+}
